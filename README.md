@@ -1,2 +1,3 @@
-# playwright-bdd-automation
-Playwright + Cucumber BDD automation framework for Spree Commerce demo site
+# Spree Playwright BDD Framework
+
+Run with npm install && npm test

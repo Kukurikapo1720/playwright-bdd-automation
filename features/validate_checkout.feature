@@ -1,10 +1,6 @@
 @sample_test
 Feature: Validate Spree Commerce checkout flow
 
-  As a user,
-  I want to complete a product purchase on the Spree Commerce demo site,
-  so that I can successfully place an order and receive confirmation.
-
   Scenario: Validate successful checkout using a new user
     Given user navigates to the Spree Commerce demo site
     And user registers with valid details

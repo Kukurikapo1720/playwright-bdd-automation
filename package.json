@@ -1,7 +1,9 @@
 {
   "name": "spree-playwright-bdd",
   "version": "1.0.0",
-  "scripts": {"test": "cucumber-js"},
+  "scripts": {
+  "test": "cucumber-js --config scripts/cucumber.config.js"
+}
   "dependencies": {
     "@cucumber/cucumber": "^9.0.0",
     "playwright": "^1.42.0"

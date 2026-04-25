@@ -1,6 +1,10 @@
-module.exports={
-  default:{
-    require:["lib/step-definitions/**/*.js"],
-    paths:["features/**/*.feature"]
+module.exports = {
+  default: {
+    require: [
+      "lib/step-definitions/**/*.js",
+      "lib/support/**/*.js" 
+    ],
+    paths: ["features/**/*.feature"],
+    exit: true             
   }
 };

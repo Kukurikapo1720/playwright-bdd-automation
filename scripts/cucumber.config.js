@@ -5,6 +5,6 @@ module.exports = {
       "lib/support/**/*.js" 
     ],
     paths: ["features/**/*.feature"],
-    exit: true             
+    exit: false             
   }
 };

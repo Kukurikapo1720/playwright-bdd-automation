@@ -1,4 +1,4 @@
-@sample_test_code
+@sample_test
 Feature: Validate Spree Commerce checkout flow
 
   Scenario: Validate successful checkout using a new user
